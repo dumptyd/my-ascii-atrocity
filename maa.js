@@ -85,7 +85,7 @@ let l1 = '*....';
 let l2 = '*....';
 let l3 = '*....';
 let l4 = '*....';
-let l5 = '****.';
+let l5 = '*****';
 let L = [l1, l2, l3, l4, l5];
 //M
 let m1 = '*...*';
@@ -283,3 +283,4 @@ let draw = (str, repch = '*', repdot = ' ') => {
   return out;
 };
 console.log(draw(process.argv[2], process.argv[3], process.argv[4]));
+
